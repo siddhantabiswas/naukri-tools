@@ -1,0 +1,31 @@
+{
+  "name": "naukri-tools",
+  "version": "1.0.0",
+  "description": "Tools for Naukri",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhantabiswas/naukri-tools.git"
+  },
+  "keywords": [],
+  "author": "Siddhanta Biswas",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/siddhantabiswas/naukri-tools/issues"
+  },
+  "homepage": "https://github.com/siddhantabiswas/naukri-tools#readme",
+  "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
+    "playwright-core": "^1.57.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
